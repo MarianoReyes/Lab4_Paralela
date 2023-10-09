@@ -13,4 +13,4 @@
 ### riema_mpi.c
 
 - mpicc -o riemann_mpi riemann_mpi.c -lm
-- mpirun -np 4 ./riemann_mpi
+- mpirun -np 4 ./riemann_mpi a b
